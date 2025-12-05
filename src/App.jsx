@@ -155,7 +155,7 @@
 //   { id: 3, name: "Hamza Malik", rating: 4, comment: "Friendly staff and smooth booking experience.", date: "2024-03-05", tour: "Baku Tour", avatar: FAKE_IMAGES.team[2] },
 //   { id: 4, name: "Fatima Raza", rating: 5, comment: "The Maldives package was magical! Everything was perfectly arranged.", date: "2024-02-28", tour: "Maldives Tour", avatar: FAKE_IMAGES.team[3] },
 //   { id: 5, name: "Omar Farooq", rating: 4, comment: "Value for money. Thailand adventure was unforgettable!", date: "2024-02-20", tour: "Thailand Tour", avatar: FAKE_IMAGES.team[0] },
-//   { id: 6, name: "Ayesha Siddiqui", rating: 5, comment: "Umrah experience was seamless with THE TRAVELISTA TRAVELS. Highly spiritual journey.", date: "2024-02-15", tour: "Saudi Arabia Umrah", avatar: FAKE_IMAGES.team[1] }
+//   { id: 6, name: "Ayesha Siddiqui", rating: 5, comment: "Umrah experience was seamless with Ajwa Travel And Tours. Highly spiritual journey.", date: "2024-02-15", tour: "Saudi Arabia Umrah", avatar: FAKE_IMAGES.team[1] }
 // ];
 
 // /* -------------------------------
@@ -234,7 +234,7 @@
 //    WHATSAPP FLOATING BUTTON
 // -------------------------------- */
 // function WhatsAppButton() {
-//   const whatsappLink = "https://wa.me/923001234567?text=Hello%20THE TRAVELISTA TRAVELS%20Tours,%20I%20want%20to%20inquire%20about%20packages";
+//   const whatsappLink = "https://wa.me/923001234567?text=Hello%20Ajwa Travel And Tours%20Tours,%20I%20want%20to%20inquire%20about%20packages";
   
 //   return (
 //     <motion.a
@@ -332,11 +332,11 @@
 //       >
 //         <motion.img 
 //           src={img}
-//           alt="THE TRAVELISTA TRAVELS Tours Logo" 
+//           alt="Ajwa Travel And Tours Tours Logo" 
 //           className="logo-img"
 //           animate={rotateAnimation}
 //         />
-//         <span className="logo-text">THE TRAVELISTA TRAVELS Tours</span>
+//         <span className="logo-text">Ajwa Travel And Tours Tours</span>
 //       </motion.div>
 
 //       <button 
@@ -453,7 +453,7 @@
 //             animate={{ scale: [1, 1.02, 1] }}
 //             transition={{ duration: 2, repeat: Infinity }}
 //           >
-//             THE TRAVELISTA TRAVELS Tours & Travels
+//             Ajwa Travel And Tours Tours & Travels
 //           </motion.h1>
 //           <motion.p 
 //             variants={fadeInUp}
@@ -670,7 +670,7 @@
 //           whileInView={{ opacity: 1, y: 0 }}
 //           viewport={{ once: true }}
 //         >
-//           Why Choose THE TRAVELISTA TRAVELS Tours
+//           Why Choose Ajwa Travel And Tours Tours
 //         </motion.h2>
 //         <motion.div 
 //           className="features-grid"
@@ -1435,7 +1435,7 @@
 //           animate={{ y: 0, opacity: 1 }}
 //           transition={{ delay: 0.2 }}
 //         >
-//           About THE TRAVELISTA TRAVELS Tours & Travels
+//           About Ajwa Travel And Tours Tours & Travels
 //         </motion.h1>
 //         <motion.p
 //           initial={{ y: 50, opacity: 0 }}
@@ -1457,7 +1457,7 @@
 //         <motion.div variants={slideInLeft} className="story-content">
 //           <h2>Our Story</h2>
 //           <p>
-//             THE TRAVELISTA TRAVELS Tours & Travels was founded with a simple vision: to make international travel 
+//             Ajwa Travel And Tours Tours & Travels was founded with a simple vision: to make international travel 
 //             accessible, affordable, and extraordinary for everyone. What started as a small travel 
 //             agency has grown into one of Pakistan's most trusted tour operators.
 //           </p>
@@ -1660,8 +1660,8 @@
 //               📧
 //             </motion.div>
 //             <h3>Email</h3>
-//             <p>info@THE TRAVELISTA TRAVELStours.com</p>
-//             <p>support@THE TRAVELISTA TRAVELStours.com</p>
+//             <p>info@Ajwa Travel And Tourstours.com</p>
+//             <p>support@Ajwa Travel And Tourstours.com</p>
 //           </motion.div>
 
 //           <motion.div 
@@ -1895,8 +1895,8 @@
 //             className="footer-logo"
 //             whileHover={{ scale: 1.1 }}
 //           >
-//             <img src={img} alt="THE TRAVELISTA TRAVELS Tours Logo" />
-//             <h3>THE TRAVELISTA TRAVELS Tours & Travels</h3>
+//             <img src={img} alt="Ajwa Travel And Tours Tours Logo" />
+//             <h3>Ajwa Travel And Tours Tours & Travels</h3>
 //           </motion.div>
 //           <p>
 //             Creating unforgettable travel experiences with trust, 
@@ -2001,7 +2001,7 @@
 //             whileHover={{ x: 10 }}
 //           >
 //             <span>📧</span>
-//             <p>info@THE TRAVELISTA TRAVELStours.com</p>
+//             <p>info@Ajwa Travel And Tourstours.com</p>
 //           </motion.div>
 //         </motion.div>
 
@@ -2040,7 +2040,7 @@
 //         animate={{ opacity: 1, y: 0 }}
 //         transition={{ delay: 0.5 }}
 //       >
-//         <p>© 2025 THE TRAVELISTA TRAVELS Tours & Travels. All Rights Reserved.</p>
+//         <p>© 2025 Ajwa Travel And Tours Tours & Travels. All Rights Reserved.</p>
 //         <motion.p
 //           animate={{ opacity: [1, 0.5, 1] }}
 //           transition={{ duration: 2, repeat: Infinity }}
@@ -2090,7 +2090,7 @@ import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route, Link, useParams, useLocation } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import "./index.css";
-import img from "./logo-b.png";
+import img from "./log.png";
 
 /* -------------------------------
    FAKE IMAGE URLS
@@ -2243,7 +2243,7 @@ const reviews = [
   { id: 3, name: "Hamza Malik", rating: 4, comment: "Friendly staff and smooth booking experience.", date: "2024-03-05", tour: "Baku Tour", avatar: FAKE_IMAGES.team[2] },
   { id: 4, name: "Fatima Raza", rating: 5, comment: "The Maldives package was magical! Everything was perfectly arranged.", date: "2024-02-28", tour: "Maldives Tour", avatar: FAKE_IMAGES.team[3] },
   { id: 5, name: "Omar Farooq", rating: 4, comment: "Value for money. Thailand adventure was unforgettable!", date: "2024-02-20", tour: "Thailand Tour", avatar: FAKE_IMAGES.team[0] },
-  { id: 6, name: "Ayesha Siddiqui", rating: 5, comment: "Umrah experience was seamless with THE TRAVELISTA TRAVELS. Highly spiritual journey.", date: "2024-02-15", tour: "Saudi Arabia Umrah", avatar: FAKE_IMAGES.team[1] }
+  { id: 6, name: "Ayesha Siddiqui", rating: 5, comment: "Umrah experience was seamless with Ajwa Travel And Tours. Highly spiritual journey.", date: "2024-02-15", tour: "Saudi Arabia Umrah", avatar: FAKE_IMAGES.team[1] }
 ];
 
 /* -------------------------------
@@ -2422,12 +2422,12 @@ function Navbar() {
         <Link to="/">
           <motion.img 
             src={img}
-            alt="THE TRAVELISTA TRAVELS Logo" 
+            alt="Ajwa Travel And Tours Logo" 
             className="logo-img"
             animate={rotateAnimation}
           />
         </Link>
-        <span className="logo-text">THE TRAVELISTA TRAVELS Tours</span>
+        <span className="logo-text">Ajwa Travel And Tours Tours</span>
       </motion.div>
 
       <button 
@@ -2548,7 +2548,7 @@ function Home() {
             animate={{ scale: [1, 1.02, 1] }}
             transition={{ duration: 2, repeat: Infinity }}
           >
-            THE TRAVELISTA TRAVELS Tours & Travels
+            Ajwa Travel And Tours Tours & Travels
           </motion.h1>
           <motion.p 
             variants={fadeInUp}
@@ -2744,7 +2744,7 @@ function Home() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
         >
-          Why Choose THE TRAVELISTA TRAVELS Tours
+          Why Choose Ajwa Travel And Tours Tours
         </motion.h2>
         <motion.div 
           className="features-grid"
@@ -3518,7 +3518,7 @@ function About() {
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.2 }}
           >
-            About THE TRAVELISTA TRAVELS Tours & Travels
+            About Ajwa Travel And Tours Tours & Travels
           </motion.h1>
           <motion.p
             initial={{ y: 50, opacity: 0 }}
@@ -3542,7 +3542,7 @@ function About() {
           <motion.div variants={slideInLeft} className="story-content">
             <h2>Our Story</h2>
             <p>
-              THE TRAVELISTA TRAVELS Tours & Travels was founded with a simple vision: to make international travel 
+              Ajwa Travel And Tours Tours & Travels was founded with a simple vision: to make international travel 
               accessible, affordable, and extraordinary for everyone. What started as a small travel 
               agency has grown into one of Pakistan's most trusted tour operators.
             </p>
@@ -3747,8 +3747,8 @@ function Contact() {
                 📧
               </motion.div>
               <h3>Email</h3>
-              <p>info@THE TRAVELISTA TRAVELStours.com</p>
-              <p>support@THE TRAVELISTA TRAVELStours.com</p>
+              <p>info@Ajwa Travel And Tourstours.com</p>
+              <p>support@Ajwa Travel And Tourstours.com</p>
             </motion.div>
 
             <motion.div 
@@ -3983,8 +3983,8 @@ function Footer() {
             className="footer-logo"
             whileHover={{ scale: 1.1 }}
           >
-            <img src={img} alt="THE TRAVELISTA TRAVELS Tours Logo" />
-            <h3>THE TRAVELISTA TRAVELS Tours & Travels</h3>
+            <img src={img} alt="Ajwa Travel And Tours Tours Logo" />
+            <h3>Ajwa Travel And Tours Tours & Travels</h3>
           </motion.div>
           <p>
             Creating unforgettable travel experiences with trust, 
@@ -4089,7 +4089,7 @@ function Footer() {
             whileHover={{ x: 10 }}
           >
             <span>📧</span>
-            <p>info@THE TRAVELISTA TRAVELStours.com</p>
+            <p>info@Ajwa Travel And Tourstours.com</p>
           </motion.div>
         </motion.div>
 
@@ -4128,7 +4128,7 @@ function Footer() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.5 }}
       >
-        <p>© 2025 THE TRAVELISTA TRAVELS Tours & Travels. All Rights Reserved.</p>
+        <p>© 2025 Ajwa Travel And Tours Tours & Travels. All Rights Reserved.</p>
         <motion.p
           animate={{ opacity: [1, 0.5, 1] }}
           transition={{ duration: 2, repeat: Infinity }}
