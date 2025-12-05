@@ -155,7 +155,7 @@
 //   { id: 3, name: "Hamza Malik", rating: 4, comment: "Friendly staff and smooth booking experience.", date: "2024-03-05", tour: "Baku Tour", avatar: FAKE_IMAGES.team[2] },
 //   { id: 4, name: "Fatima Raza", rating: 5, comment: "The Maldives package was magical! Everything was perfectly arranged.", date: "2024-02-28", tour: "Maldives Tour", avatar: FAKE_IMAGES.team[3] },
 //   { id: 5, name: "Omar Farooq", rating: 4, comment: "Value for money. Thailand adventure was unforgettable!", date: "2024-02-20", tour: "Thailand Tour", avatar: FAKE_IMAGES.team[0] },
-//   { id: 6, name: "Ayesha Siddiqui", rating: 5, comment: "Umrah experience was seamless with SURTI. Highly spiritual journey.", date: "2024-02-15", tour: "Saudi Arabia Umrah", avatar: FAKE_IMAGES.team[1] }
+//   { id: 6, name: "Ayesha Siddiqui", rating: 5, comment: "Umrah experience was seamless with BIN KHALID TRAVELS & TOURS. Highly spiritual journey.", date: "2024-02-15", tour: "Saudi Arabia Umrah", avatar: FAKE_IMAGES.team[1] }
 // ];
 
 // /* -------------------------------
@@ -234,7 +234,7 @@
 //    WHATSAPP FLOATING BUTTON
 // -------------------------------- */
 // function WhatsAppButton() {
-//   const whatsappLink = "https://wa.me/923001234567?text=Hello%20SURTI%20Tours,%20I%20want%20to%20inquire%20about%20packages";
+//   const whatsappLink = "https://wa.me/923001234567?text=Hello%20BIN KHALID TRAVELS & TOURS%20Tours,%20I%20want%20to%20inquire%20about%20packages";
   
 //   return (
 //     <motion.a
@@ -332,11 +332,11 @@
 //       >
 //         <motion.img 
 //           src={img}
-//           alt="SURTI Tours Logo" 
+//           alt="BIN KHALID TRAVELS & TOURS Tours Logo" 
 //           className="logo-img"
 //           animate={rotateAnimation}
 //         />
-//         <span className="logo-text">SURTI Tours</span>
+//         <span className="logo-text">BIN KHALID TRAVELS & TOURS Tours</span>
 //       </motion.div>
 
 //       <button 
@@ -453,7 +453,7 @@
 //             animate={{ scale: [1, 1.02, 1] }}
 //             transition={{ duration: 2, repeat: Infinity }}
 //           >
-//             SURTI Tours & Travels
+//             BIN KHALID TRAVELS & TOURS Tours & Travels
 //           </motion.h1>
 //           <motion.p 
 //             variants={fadeInUp}
@@ -670,7 +670,7 @@
 //           whileInView={{ opacity: 1, y: 0 }}
 //           viewport={{ once: true }}
 //         >
-//           Why Choose SURTI Tours
+//           Why Choose BIN KHALID TRAVELS & TOURS Tours
 //         </motion.h2>
 //         <motion.div 
 //           className="features-grid"
@@ -1435,7 +1435,7 @@
 //           animate={{ y: 0, opacity: 1 }}
 //           transition={{ delay: 0.2 }}
 //         >
-//           About SURTI Tours & Travels
+//           About BIN KHALID TRAVELS & TOURS Tours & Travels
 //         </motion.h1>
 //         <motion.p
 //           initial={{ y: 50, opacity: 0 }}
@@ -1457,7 +1457,7 @@
 //         <motion.div variants={slideInLeft} className="story-content">
 //           <h2>Our Story</h2>
 //           <p>
-//             SURTI Tours & Travels was founded with a simple vision: to make international travel 
+//             BIN KHALID TRAVELS & TOURS Tours & Travels was founded with a simple vision: to make international travel 
 //             accessible, affordable, and extraordinary for everyone. What started as a small travel 
 //             agency has grown into one of Pakistan's most trusted tour operators.
 //           </p>
@@ -1660,8 +1660,8 @@
 //               📧
 //             </motion.div>
 //             <h3>Email</h3>
-//             <p>info@surtitours.com</p>
-//             <p>support@surtitours.com</p>
+//             <p>info@BIN KHALID TRAVELS & TOURStours.com</p>
+//             <p>support@BIN KHALID TRAVELS & TOURStours.com</p>
 //           </motion.div>
 
 //           <motion.div 
@@ -1895,8 +1895,8 @@
 //             className="footer-logo"
 //             whileHover={{ scale: 1.1 }}
 //           >
-//             <img src={img} alt="SURTI Tours Logo" />
-//             <h3>SURTI Tours & Travels</h3>
+//             <img src={img} alt="BIN KHALID TRAVELS & TOURS Tours Logo" />
+//             <h3>BIN KHALID TRAVELS & TOURS Tours & Travels</h3>
 //           </motion.div>
 //           <p>
 //             Creating unforgettable travel experiences with trust, 
@@ -2001,7 +2001,7 @@
 //             whileHover={{ x: 10 }}
 //           >
 //             <span>📧</span>
-//             <p>info@surtitours.com</p>
+//             <p>info@BIN KHALID TRAVELS & TOURStours.com</p>
 //           </motion.div>
 //         </motion.div>
 
@@ -2040,7 +2040,7 @@
 //         animate={{ opacity: 1, y: 0 }}
 //         transition={{ delay: 0.5 }}
 //       >
-//         <p>© 2025 SURTI Tours & Travels. All Rights Reserved.</p>
+//         <p>© 2025 BIN KHALID TRAVELS & TOURS Tours & Travels. All Rights Reserved.</p>
 //         <motion.p
 //           animate={{ opacity: [1, 0.5, 1] }}
 //           transition={{ duration: 2, repeat: Infinity }}
@@ -2243,7 +2243,7 @@ const reviews = [
   { id: 3, name: "Hamza Malik", rating: 4, comment: "Friendly staff and smooth booking experience.", date: "2024-03-05", tour: "Baku Tour", avatar: FAKE_IMAGES.team[2] },
   { id: 4, name: "Fatima Raza", rating: 5, comment: "The Maldives package was magical! Everything was perfectly arranged.", date: "2024-02-28", tour: "Maldives Tour", avatar: FAKE_IMAGES.team[3] },
   { id: 5, name: "Omar Farooq", rating: 4, comment: "Value for money. Thailand adventure was unforgettable!", date: "2024-02-20", tour: "Thailand Tour", avatar: FAKE_IMAGES.team[0] },
-  { id: 6, name: "Ayesha Siddiqui", rating: 5, comment: "Umrah experience was seamless with SURTI. Highly spiritual journey.", date: "2024-02-15", tour: "Saudi Arabia Umrah", avatar: FAKE_IMAGES.team[1] }
+  { id: 6, name: "Ayesha Siddiqui", rating: 5, comment: "Umrah experience was seamless with BIN KHALID TRAVELS & TOURS. Highly spiritual journey.", date: "2024-02-15", tour: "Saudi Arabia Umrah", avatar: FAKE_IMAGES.team[1] }
 ];
 
 /* -------------------------------
@@ -2322,7 +2322,7 @@ const rotateAnimation = {
    WHATSAPP FLOATING BUTTON
 -------------------------------- */
 function WhatsAppButton() {
-  const whatsappLink = "https://wa.me/923001234567?text=Hello%20SURTI%20Tours,%20I%20want%20to%20inquire%20about%20packages";
+  const whatsappLink = "https://wa.me/923001234567?text=Hello%20BIN%20KHALID%20TRAVELS%20%26%20TOURS,%20I%20want%20to%20inquire%20about%20packages";
   
   return (
     <motion.a
@@ -2422,12 +2422,12 @@ function Navbar() {
         <Link to="/">
           <motion.img 
             src={img}
-            alt="SURTI Tours Logo" 
+            alt="BIN KHALID TRAVELS & TOURS Logo" 
             className="logo-img"
             animate={rotateAnimation}
           />
         </Link>
-        <span className="logo-text">SURTI Tours</span>
+        <span className="logo-text">BIN KHALID TRAVELS & TOURS Tours</span>
       </motion.div>
 
       <button 
@@ -2548,7 +2548,7 @@ function Home() {
             animate={{ scale: [1, 1.02, 1] }}
             transition={{ duration: 2, repeat: Infinity }}
           >
-            SURTI Tours & Travels
+            BIN KHALID TRAVELS & TOURS Tours & Travels
           </motion.h1>
           <motion.p 
             variants={fadeInUp}
@@ -2598,28 +2598,7 @@ function Home() {
       </section>
 
       {/* Search Bar */}
-      <motion.div 
-        className="search-bar"
-        initial={{ opacity: 0, y: 50 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.5 }}
-      >
-        <h3>Find Your Perfect Trip</h3>
-        <form className="search-form">
-          <input type="text" placeholder="Destination" />
-          <select>
-            <option value="">Duration</option>
-            <option value="3-5">3-5 Days</option>
-            <option value="5-7">5-7 Days</option>
-            <option value="7+">7+ Days</option>
-          </select>
-          <input type="date" placeholder="Travel Date" />
-          <input type="number" placeholder="Travelers" min="1" defaultValue="2" />
-          <button type="submit" className="btn btn-primary">
-            Search Packages
-          </button>
-        </form>
-      </motion.div>
+    
 
       {/* Top Destinations */}
       <section className="destinations-section">
@@ -2765,7 +2744,7 @@ function Home() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
         >
-          Why Choose SURTI Tours
+          Why Choose BIN KHALID TRAVELS & TOURS Tours
         </motion.h2>
         <motion.div 
           className="features-grid"
@@ -3539,7 +3518,7 @@ function About() {
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.2 }}
           >
-            About SURTI Tours & Travels
+            About BIN KHALID TRAVELS & TOURS Tours & Travels
           </motion.h1>
           <motion.p
             initial={{ y: 50, opacity: 0 }}
@@ -3563,7 +3542,7 @@ function About() {
           <motion.div variants={slideInLeft} className="story-content">
             <h2>Our Story</h2>
             <p>
-              SURTI Tours & Travels was founded with a simple vision: to make international travel 
+              BIN KHALID TRAVELS & TOURS Tours & Travels was founded with a simple vision: to make international travel 
               accessible, affordable, and extraordinary for everyone. What started as a small travel 
               agency has grown into one of Pakistan's most trusted tour operators.
             </p>
@@ -3768,8 +3747,8 @@ function Contact() {
                 📧
               </motion.div>
               <h3>Email</h3>
-              <p>info@surtitours.com</p>
-              <p>support@surtitours.com</p>
+              <p>info@BIN KHALID TRAVELS & TOURStours.com</p>
+              <p>support@BIN KHALID TRAVELS & TOURStours.com</p>
             </motion.div>
 
             <motion.div 
@@ -4004,8 +3983,8 @@ function Footer() {
             className="footer-logo"
             whileHover={{ scale: 1.1 }}
           >
-            <img src={img} alt="SURTI Tours Logo" />
-            <h3>SURTI Tours & Travels</h3>
+            <img src={img} alt="BIN KHALID TRAVELS & TOURS Tours Logo" />
+            <h3>BIN KHALID TRAVELS & TOURS Tours & Travels</h3>
           </motion.div>
           <p>
             Creating unforgettable travel experiences with trust, 
@@ -4110,7 +4089,7 @@ function Footer() {
             whileHover={{ x: 10 }}
           >
             <span>📧</span>
-            <p>info@surtitours.com</p>
+            <p>info@BIN KHALID TRAVELS & TOURStours.com</p>
           </motion.div>
         </motion.div>
 
@@ -4149,7 +4128,7 @@ function Footer() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.5 }}
       >
-        <p>© 2025 SURTI Tours & Travels. All Rights Reserved.</p>
+        <p>© 2025 BIN KHALID TRAVELS & TOURS Tours & Travels. All Rights Reserved.</p>
         <motion.p
           animate={{ opacity: [1, 0.5, 1] }}
           transition={{ duration: 2, repeat: Infinity }}
